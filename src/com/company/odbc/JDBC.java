@@ -16,7 +16,7 @@ public class JDBC {
         // Connection conn = DriverManager.getConnection("jdbc:extendedsystems:advantage://server1:6262/test/data;user=user1;password=up1");
         Connection conn = null;
         try {
-            conn = DriverManager.getConnection("jdbc:extendedsystems:advantage://backupsrv:6262;catalog=\\\\backupsrv\\d$\\CopyADS\\06062015\\DataBase\\globino.add;user=adssys;password=gmk5", "adssys", "gmk5");//; catalog=\\BACKUPSRV\d$\CopyADS\06062015\DataBase\globino.add
+            conn = DriverManager.getConnection("jdbc:extendedsystems:advantage://backupsrv:6262;catalog=\\\\backupsrv\\d$\\CopyADS\\06062015\\DataBase\\globino.add");
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println(e.getMessage());
