@@ -88,7 +88,7 @@ public class AAlgorithm {
                     }
                 }
                 catch (ArrayIndexOutOfBoundsException e){
-                    System.out.println(i + " " + j + 34534534);
+                    System.out.println(i + " " + j + " " + "ArrayIndexOutOfBoundsException");
                 }
 
             }
